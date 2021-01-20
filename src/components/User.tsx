@@ -13,7 +13,7 @@ interface UserProps {
 const User: React.FC<UserProps> = ({user}) => {
   return (
       <Container>
-          <Avatar src={user.avatar}></Avatar>
+          <Avatar src={user.avatar}/>
           <Info>
               <a>{user.name}</a>
               <span>{user.username}</span>

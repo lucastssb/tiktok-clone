@@ -25,7 +25,7 @@ const PageHeader: React.FC = () => {
                         alt="logo"
                         width="97"
                         height="28"
-                    ></Logo>
+                    />
                 </LogoContainer>
                 <OptionsContainer>
                     <Icon

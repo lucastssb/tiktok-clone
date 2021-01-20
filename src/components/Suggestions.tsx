@@ -168,9 +168,9 @@ const Suggestions: React.FC = () => {
     return (
         <Container>
             <IconsContainer>
-                <Icon src="/images/facebookIcon.svg"></Icon>
-                <Icon src="/images/pinterestIcon.svg"></Icon>
-                <Icon src="/images/twitterIcon.svg"></Icon>
+                <Icon src="/images/facebookIcon.svg"/>
+                <Icon src="/images/pinterestIcon.svg"/>
+                <Icon src="/images/twitterIcon.svg"/>
             </IconsContainer>
             <BoxContainer>
                 <BoxHeader>
@@ -179,7 +179,7 @@ const Suggestions: React.FC = () => {
                 <ItemContainer>
                     {people.map((person, index) => (
                         <Item key={index} >
-                            <User user={person}></User>
+                            <User user={person}/>
                             <ButtonContainer>
                                 <Button fontSize={14} outlined>
                                     Seguir
@@ -198,15 +198,15 @@ const Suggestions: React.FC = () => {
                         <Item key={index}>
                             <RecommendCard
                                 recommendItem={item}
-                            ></RecommendCard>
-                            <ArrowIcon></ArrowIcon>
+                            />
+                            <ArrowIcon/>
                         </Item>
                     ))}
                 </ItemContainer>
             </BoxContainer>
-            <DownloadImage src="/images/appstore.png"></DownloadImage>
-            <DownloadImage src="/images/playstore.png"></DownloadImage>
-            <DownloadImage src="/images/amazon.png"></DownloadImage>
+            <DownloadImage src="/images/appstore.png"/>
+            <DownloadImage src="/images/playstore.png"/>
+            <DownloadImage src="/images/amazon.png"/>
         </Container>
     );
 };

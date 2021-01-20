@@ -10,10 +10,10 @@ import {
 const Layout: React.FC = ({ children }) => {
     return (
         <>
-            <Header></Header>
+            <Header/>
             <Container>
                 <SidebarContainer>
-                    <Sidebar></Sidebar>
+                    <Sidebar/>
                 </SidebarContainer>
                 <ContentContainer>{children}</ContentContainer>
             </Container>

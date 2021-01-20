@@ -10,6 +10,8 @@
   "dependencies": {
     "-": "^0.0.1",
     "D": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.3",
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
@@ -17,6 +19,7 @@
     "styled-icons": "^10.26.0"
   },
   "devDependencies": {
+    "@types/mongodb": "^3.6.3",
     "@types/node": "^14.14.20",
     "@types/react": "^17.0.0",
     "@types/styled-components": "^5.1.7",

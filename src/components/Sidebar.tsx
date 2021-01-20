@@ -16,11 +16,11 @@ const Sidebar: React.FC = () => {
     return (
         <Container>
             <MenuItem active>
-                <Image src='/images/homeIcon.svg' alt='Home' width='40px' height='40px'></Image>
+                <Image src='/images/homeIcon.svg' alt='Home' width='40px' height='40px'/>
                 <span>Para você</span>
             </MenuItem>
             <MenuItem >
-                <Image src='/images/peopleIcon.svg' alt='People' width='40px' height='40px'></Image>
+                <Image src='/images/peopleIcon.svg' alt='People' width='40px' height='40px'/>
                 <span>Seguindo</span>
             </MenuItem>
             <Following>
@@ -29,7 +29,7 @@ const Sidebar: React.FC = () => {
                     name: 'Will Smith',
                     username: 'willsmith',
                     avatar: 'https://p16-amd-va.tiktokcdn.com/img/musically-maliva-obj/1646315618666501~c5_100x100.jpeg'
-                }} ></User>
+                }} />
             </Following>
             <InfoContainer>
                 <Links margin>
