@@ -1,5 +1,4 @@
 import { MongoClient } from 'mongodb';
-require('dotenv').config();
 
 const client = new MongoClient(process.env.MONGO_URI, {
     useNewUrlParser: true,
@@ -12,7 +11,7 @@ export async function connectDatabase() {
         console.log(err);
     }
 
-    return client.db('tiktok');
+    return client.db(process.env.DB);
 }
 
 export async function closeDatabase() {
