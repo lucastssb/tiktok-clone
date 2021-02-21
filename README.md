@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="App screen" src=".github/screen.png" width="500px">
+  <img alt="App screen" src=".github/screen.png" width="100%">
 </p>
 
 ## 💻 Project
